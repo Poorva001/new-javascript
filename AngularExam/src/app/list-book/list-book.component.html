@@ -1,0 +1,4 @@
+<input [(ngModel)] = "searchInput">
+<button (click) = "check()">Search</button>
+<p [ngStyle] = "{'color':contentExist ? 'green' : 'red'}">{{ message }}</p>
+<app-card-book [BookList]="BookLists"></app-card-book>
